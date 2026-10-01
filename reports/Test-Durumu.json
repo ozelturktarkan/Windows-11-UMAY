@@ -1,0 +1,22 @@
+{
+  "revision": "r1",
+  "iso_sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c",
+  "offline_image_verification": "passed",
+  "iso_readback_verification": "passed",
+  "boot_catalog_verification": "passed",
+  "driver_services_checked": 360,
+  "audio_network_source_files_sha256_matched": 9,
+  "installation": "pending user",
+  "internet_in_installed_guest": "pending user",
+  "audible_sound_in_installed_guest": "pending user",
+  "first_logon_visual_profile": "pending user",
+  "basic_applications": "pending user",
+  "idle_ram_cpu_and_long_term_stability": "not measured",
+  "configured_vm": {
+    "ram_mib": 4096,
+    "vcpus": 2,
+    "network": "NAT, cable connected",
+    "audio": "Intel HD Audio, output enabled"
+  },
+  "ram_target_1gb_verified": false
+}

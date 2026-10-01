@@ -1,0 +1,8 @@
+Windows 11 UMAY.iso
+Boyut: 4632555520 bayt
+
+SHA256: cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c
+SHA1: e5e0f5a97933075f78e5005a5dcd39af4d0232b2
+MD5: 67839f378a5b893c3c6f5cb3d48cd49f
+
+Bu hashler ozellestirilmis r1 ISO icindir; orijinal Microsoft medyasi icin degildir.

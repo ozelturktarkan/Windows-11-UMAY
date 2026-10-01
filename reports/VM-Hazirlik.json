@@ -1,0 +1,16 @@
+{
+  "name": "Win11-UMAY-21H2-TEST",
+  "iso": "WORKSPACE\\WIN11-UMAY-URETIM\\ADAY-r1\\Windows 11 UMAY.iso",
+  "disk": "WORKSPACE\\Virtualbox-imaj\\Win11-UMAY-21H2-TEST\\Win11-UMAY-21H2.vdi",
+  "ram_mib": 4096,
+  "vcpus": 2,
+  "disk_capacity_gib": 64,
+  "allocation": "dynamic",
+  "secure_boot": true,
+  "tpm": "2.0",
+  "network": "NAT cable connected",
+  "audio": "Intel HD Audio, host default backend, output enabled",
+  "paravirtualization": "Hyper-V provider for Windows guest; host Hyper-V settings unchanged",
+  "installation": "manual by user",
+  "status": "configured, powered off; user starts installation"
+}

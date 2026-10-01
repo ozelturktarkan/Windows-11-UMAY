@@ -10,3 +10,9 @@ Bu sayfa bir kurulum rehberidir; bütün hipervizörlerde test sonucu anlamına 
 - Siyah ekranda önce ISO hash'ini, bağlı medyayı, VM günlüğünü ve görüntü ayarlarını kontrol edin. Önceki LTSC denemesinde 3 vCPU ile kurulum ilerlese de sonrasında siyah ekran tekrarlandı; bunu kesin çözüm veya ISO bozukluğunun kanıtı saymıyoruz.
 
 Bu adayların temiz kurulum yanıt dosyası yalnız TPM, Secure Boot ve RAM denetimleri için LabConfig değerlerini ekler. CPU komut seti, sürücü veya her donanımda çalışma engellerini kaldırdığı iddia edilmez. Ana bilgisayarın TPM/firmware ayarları değiştirilmez.
+
+## UMAY r1 için hazırlanan VirtualBox profili
+
+4 GB RAM, 2 vCPU, 64 GB dinamik disk, VBoxSVGA / 128 MB görüntü belleği, 3D kapalı; UEFI, TPM 2.0 ve Secure Boot açık. Ağ NAT / Intel PRO/1000 MT / kablo bağlı. Ses Intel HD Audio / STAC9221, ana bilgisayarın varsayılan arka ucu ve ses çıkışı açık; mikrofon girişi kapalı.
+
+Windows konuğu için Hyper-V paravirtualization provider ve nested paging seçildi; bu, ana bilgisayarın Windows Hyper-V özelliğini açıp kapatmaz. HPET, BCD işlemci sınırı veya %100 minimum işlemci değişikliği eklenmedi. Bu yapılandırma henüz ölçülmüş performans artışı iddiası değildir. [Oracle belgesi](https://www.virtualbox.org/manual/ch10.html).

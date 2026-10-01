@@ -1,0 +1,19 @@
+{
+  "profile": "UMAY",
+  "wallpaper_added": false,
+  "cursor_added": false,
+  "specialize_command": "cmd.exe /d /c powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"%WINDIR%\\Setup\\UMAY\\Apply-Machine.ps1\"",
+  "scope": "First-logon visual profile and on-demand audio/network diagnostic only; no service, paging, memory compression, power or timer changes.",
+  "files": {
+    "autounattend.xml": "114a5906a6b951b715de4b2c844e815a5aabe83a1de98226d1009c98b3204dac",
+    "sources/$OEM$/$$/Setup/UMAY/Apply-Machine.ps1": "d1a996bb5fec0f63e4f51a98e3cd06ed93abb9056d850b1c5dc8cbaf0638afc3",
+    "sources/$OEM$/$$/Setup/UMAY/Check-Audio-Network.ps1": "ddb088ceb959ae6f6678c2b7e6778084e166a0d1dded099219eb3c2faf834e9c",
+    "sources/$OEM$/$$/Setup/UMAY/Initialize-User.ps1": "a0f6a4d63cdf265489bcf9ae9d176740b02baa4c7f048db0bb9fbdab5b9efb48",
+    "sources/$OEM$/$$/Setup/UMAY/Payload.json": "bce4d94f2cde24607d52503cbfa2a4757f9f40f32a3e55e4ddae9b6fb6bd55ff"
+  },
+  "references": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfow",
+    "https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/how-to-determine-the-appropriate-page-file-size-for-64-bit-versions-of-windows",
+    "https://www.virtualbox.org/manual/ch10.html"
+  ]
+}

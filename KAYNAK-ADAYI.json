@@ -11,5 +11,8 @@
   "catalog_bytes": 5162174464,
   "download_or_local_hash_verified": false,
   "microsoft_reference_independently_verified": false,
-  "note": "Third-party catalog metadata, not a direct ISO download or an independently verified Microsoft hash."
+  "note": "Third-party catalog metadata. Original full ISO was unavailable for independent local hash comparison at build time; extracted WIM identity and backup were checked. Not a verified Microsoft ISO hash claim.",
+  "selected_edition": "Home",
+  "source_wim_identity_verified": true,
+  "source_wim_backed_up_and_sha256_matched": true
 }

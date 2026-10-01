@@ -1,0 +1,157 @@
+{
+  "verified_at": "2026-10-01T13:45:45.023970+03:00",
+  "offline_checks_passed": true,
+  "required_files": {
+    "/Windows/explorer.exe": true,
+    "/Windows/System32/SearchIndexer.exe": true,
+    "/Windows/System32/mpssvc.dll": true,
+    "/Windows/System32/audiosrv.dll": true,
+    "/Windows/System32/AudioEndpointBuilder.dll": true,
+    "/Windows/System32/AppxDeploymentServer.dll": true,
+    "/Windows/System32/wuaueng.dll": true,
+    "/Windows/System32/WindowsPowerShell/v1.0/powershell.exe": true,
+    "/Windows/System32/drivers/tcpip.sys": true,
+    "/Windows/System32/drivers/ndis.sys": true,
+    "/Windows/System32/drivers/afd.sys": true,
+    "/Windows/System32/drivers/hdaudbus.sys": true,
+    "/Windows/System32/drivers/portcls.sys": true,
+    "/Windows/System32/dhcpcore.dll": true,
+    "/Windows/System32/dnsapi.dll": true
+  },
+  "defender_engine_present": false,
+  "smartscreen_present": false,
+  "defender_service_start": null,
+  "store_packages_absent": {
+    "microsoft.windowsstore": true,
+    "microsoft.storepurchaseapp": true,
+    "microsoft.549981c3f5f10": true,
+    "microsoft.bingnews": true,
+    "microsoft.bingweather": true,
+    "microsoft.gamingapp": true,
+    "microsoft.getstarted": true,
+    "microsoft.microsoftofficehub": true,
+    "microsoft.microsoftsolitairecollection": true,
+    "microsoft.microsoftstickynotes": true,
+    "microsoft.people": true,
+    "microsoft.powerautomatedesktop": true,
+    "microsoft.todos": true,
+    "microsoft.windowscommunicationsapps": true,
+    "microsoft.windowsfeedbackhub": true,
+    "microsoft.windowsmaps": true,
+    "microsoft.yourphone": true,
+    "microsoft.xbox.tcui": true,
+    "microsoft.xboxgameoverlay": true,
+    "microsoft.xboxgamingoverlay": true,
+    "microsoft.xboxidentityprovider": true,
+    "microsoft.xboxspeechtotextoverlay": true,
+    "microsoftwindows.client.webexperience": true
+  },
+  "removed_appx": [
+    "Microsoft.549981C3F5F10_2.2106.2807.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.BingNews_4.7.28001.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.BingWeather_4.9.2002.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.GamingApp_2021.427.138.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.Getstarted_10.2.41172.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.MicrosoftOfficeHub_18.2104.12721.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.MicrosoftSolitaireCollection_4.6.3102.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.MicrosoftStickyNotes_4.1.2.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.People_2020.901.1724.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.PowerAutomateDesktop_10.0.561.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.StorePurchaseApp_12008.1001.113.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.Todos_2.33.33351.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.WindowsFeedbackHub_2021.427.1821.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.WindowsMaps_2021.2012.10.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.WindowsStore_12104.1001.113.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.Xbox.TCUI_1.23.28002.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.XboxGameOverlay_1.46.11001.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.XboxGamingOverlay_2.50.24002.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.XboxIdentityProvider_12.50.6001.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.XboxSpeechToTextOverlay_1.17.29001.0_neutral_~_8wekyb3d8bbwe",
+    "Microsoft.YourPhone_2019.430.2026.0_neutral_~_8wekyb3d8bbwe",
+    "MicrosoftWindows.Client.WebExperience_321.14700.0.9_neutral_~_cw5n1h2txyewy",
+    "microsoft.windowscommunicationsapps_16005.12827.20400.0_neutral_~_8wekyb3d8bbwe"
+  ],
+  "unexpected_appx_removals": [],
+  "protected_service_starts_preserved": {
+    "mpssvc": true,
+    "bfe": true,
+    "audiosrv": true,
+    "audioendpointbuilder": true,
+    "wsearch": true,
+    "appxsvc": true,
+    "clipsvc": true,
+    "installservice": true,
+    "staterepository": true,
+    "wuauserv": true,
+    "bits": true,
+    "sysmain": true,
+    "textinputmanagementservice": true,
+    "dhcp": true,
+    "dnscache": true,
+    "nlasvc": true,
+    "netprofm": true,
+    "wlansvc": true,
+    "wcmsvc": true,
+    "nsi": true,
+    "afd": true,
+    "tcpip": true,
+    "ndis": true,
+    "rpcss": true,
+    "dcomlaunch": true,
+    "rpceptmapper": true,
+    "plugplay": true,
+    "eventlog": true,
+    "winmgmt": true,
+    "hdaudbus": true,
+    "hdaudio": true,
+    "portcls": true
+  },
+  "clean_setup_bypass_xml_valid": true,
+  "installation_test": "pending user",
+  "iso_created": false,
+  "setup_files_and_hook_verified": true,
+  "driver_service_count_checked": 360,
+  "unexpected_driver_start_changes": {},
+  "custom_wallpaper_or_cursor": false,
+  "audio_network_files_byte_identical_to_source": true,
+  "audio_network_file_hashes": {
+    "/Windows/System32/audiosrv.dll": {
+      "source_sha256": "775e45f06c5b5694fd34fd473e103da97b4a664c60d3ca66a660c157f095d15e",
+      "final_sha256": "775e45f06c5b5694fd34fd473e103da97b4a664c60d3ca66a660c157f095d15e"
+    },
+    "/Windows/System32/AudioEndpointBuilder.dll": {
+      "source_sha256": "109bf9fffc53e7c0d8651717c6c6e98749563838c567d8389e2b59e80a890986",
+      "final_sha256": "109bf9fffc53e7c0d8651717c6c6e98749563838c567d8389e2b59e80a890986"
+    },
+    "/Windows/System32/dhcpcore.dll": {
+      "source_sha256": "f485c8c4c94e770fab0bd36d3b038f92ac89ce8aa00fc63a0ee310cd7a3e0c14",
+      "final_sha256": "f485c8c4c94e770fab0bd36d3b038f92ac89ce8aa00fc63a0ee310cd7a3e0c14"
+    },
+    "/Windows/System32/dnsapi.dll": {
+      "source_sha256": "46c60a528846eca6e02abcc1961f8416ffb597281f1ef72da0174d5c1094db13",
+      "final_sha256": "46c60a528846eca6e02abcc1961f8416ffb597281f1ef72da0174d5c1094db13"
+    },
+    "/Windows/System32/drivers/tcpip.sys": {
+      "source_sha256": "f4dfbf3eeab791507d7eb83c44860e96c88bf725aa19e4cb1f753250ed173edd",
+      "final_sha256": "f4dfbf3eeab791507d7eb83c44860e96c88bf725aa19e4cb1f753250ed173edd"
+    },
+    "/Windows/System32/drivers/ndis.sys": {
+      "source_sha256": "8d7891d42776ef28099b1b38286f37a1da54974a8081aea122e4bef5461aad2a",
+      "final_sha256": "8d7891d42776ef28099b1b38286f37a1da54974a8081aea122e4bef5461aad2a"
+    },
+    "/Windows/System32/drivers/afd.sys": {
+      "source_sha256": "1bed071e38c433741c44dd9ba7baa5d0dce4b3c77d2c195ec5a382ccd0503690",
+      "final_sha256": "1bed071e38c433741c44dd9ba7baa5d0dce4b3c77d2c195ec5a382ccd0503690"
+    },
+    "/Windows/System32/drivers/hdaudbus.sys": {
+      "source_sha256": "05316835dd93d714a38596271708f6aefd4a32d1441d61ef23e0d11dbb0cae63",
+      "final_sha256": "05316835dd93d714a38596271708f6aefd4a32d1441d61ef23e0d11dbb0cae63"
+    },
+    "/Windows/System32/drivers/portcls.sys": {
+      "source_sha256": "0babfefdd9a934ed308dd2945902a268c86fcc4d73adb044315d2c4090cc6df1",
+      "final_sha256": "0babfefdd9a934ed308dd2945902a268c86fcc4d73adb044315d2c4090cc6df1"
+    }
+  },
+  "virtualization_packages_checked": 278,
+  "virtualization_package_state_changes": {}
+}

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+  <Version>1.1</Version>
+  <ImageInfo>
+    <Version mode="offline">Windows 11 Home 21H2 x64 - 10.0.22000.194 (tr-TR)</Version>
+  </ImageInfo>
+  <RemoveComponents AppRemovalMode="DISM">
+    <c>defenderantivirus</c>
+    <c>microsoft.windowsstore</c>
+    <c>microsoft.storepurchaseapp</c>
+    <c>microsoft.windows.apprep.chxapp</c>
+    <c>microsoft.549981c3f5f10</c>
+    <c>microsoft.bingnews</c>
+    <c>microsoft.bingweather</c>
+    <c>microsoft.gamingapp</c>
+    <c>microsoft.getstarted</c>
+    <c>microsoft.microsoftofficehub</c>
+    <c>microsoft.microsoftsolitairecollection</c>
+    <c>microsoft.microsoftstickynotes</c>
+    <c>microsoft.people</c>
+    <c>microsoft.powerautomatedesktop</c>
+    <c>microsoft.todos</c>
+    <c>microsoft.windowscommunicationsapps</c>
+    <c>microsoft.windowsfeedbackhub</c>
+    <c>microsoft.windowsmaps</c>
+    <c>microsoft.yourphone</c>
+    <c>microsoft.xbox.tcui</c>
+    <c>microsoft.xboxgameoverlay</c>
+    <c>microsoft.xboxgamingoverlay</c>
+    <c>microsoft.xboxidentityprovider</c>
+    <c>microsoft.xboxspeechtotextoverlay</c>
+    <c>microsoftwindows.client.webexperience</c>
+  </RemoveComponents>
+  <Compatibility>
+    <ComponentFeatures>
+      <Feature enabled="yes">OOBE</Feature>
+      <Feature enabled="yes">AppxSupport</Feature>
+      <Feature enabled="yes">ServicingStack</Feature>
+      <Feature enabled="yes">DefaultFonts</Feature>
+      <Feature enabled="yes">USB</Feature>
+      <Feature enabled="yes">Activation</Feature>
+      <Feature enabled="yes">WFC</Feature>
+      <Feature enabled="yes">WinSetup</Feature>
+      <Feature enabled="yes">Recommended-All</Feature>
+      <Feature enabled="yes">ShellSearchSupport</Feature>
+      <Feature enabled="yes">Printing</Feature>
+      <Feature enabled="yes">NetworkDiscovery</Feature>
+      <Feature enabled="yes">FileSharing</Feature>
+      <Feature enabled="yes">Bluetooth</Feature>
+      <Feature enabled="yes">VSS</Feature>
+      <Feature enabled="yes">OfficeSupport</Feature>
+      <Feature enabled="yes">VPN</Feature>
+      <Feature enabled="yes">Scanning</Feature>
+      <Feature enabled="yes">VideoPlayback</Feature>
+      <Feature enabled="yes">USBCamera</Feature>
+      <Feature enabled="yes">WindowsUpdate</Feature>
+      <Feature enabled="yes">SFC</Feature>
+      <Feature enabled="yes">WLAN</Feature>
+      <Feature enabled="yes">SafeMode</Feature>
+      <Feature enabled="yes">SnippingTool</Feature>
+      <Feature enabled="no">WindowsStore</Feature>
+      <Feature enabled="no">WindowsSecurity</Feature>
+    </ComponentFeatures>
+  </Compatibility>
+  <Packages />
+  <Tweaks />
+  <ApplyOptions>
+    <ImageTasks>
+      <Task>imageFormatWim</Task>
+    </ImageTasks>
+  </ApplyOptions>
+</Preset>

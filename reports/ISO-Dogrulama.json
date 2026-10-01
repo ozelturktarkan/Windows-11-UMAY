@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-01T13:50:22.490281+03:00",
+  "packager": "pycdlib 1.21.0; official wheel SHA256 1a82cd735542921d0dd7bc40381e7b7b9cbc70bd4c03e4f67a0531d59d2f518e",
+  "iso": "WORKSPACE\\WIN11-UMAY-URETIM\\ADAY-r1\\Windows 11 UMAY.iso",
+  "iso_bytes": 4632555520,
+  "hashes": {
+    "sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c",
+    "sha1": "e5e0f5a97933075f78e5005a5dcd39af4d0232b2",
+    "md5": "67839f378a5b893c3c6f5cb3d48cd49f"
+  },
+  "disk_preflight": {
+    "planned_iso_bytes": 4632555520,
+    "free_before_write": 129808236544,
+    "minimum_remaining_bytes": 1073741824
+  },
+  "source": "WORKSPACE\\WIN11-UMAY-URETIM\\Medya",
+  "source_edition_count": 1,
+  "original_source_index": 1,
+  "exported_edition_count": 1,
+  "edition": "Windows 11 Home",
+  "architecture": "x64",
+  "version": "21H2",
+  "build": "22000.194",
+  "language": "tr-TR",
+  "wim_full_stream_verification_passed": true,
+  "wim_registry_matches_verified_image": {
+    "SOFTWARE": "1fcab98d7f3e51b7bb3a904c8e16fde4d33b781f39d7e3c05bfeff532263a6aa",
+    "SYSTEM": "dcebd6625559e8dfa5e0351e1f9b474e667e4edd24e8793b9104b7edf169b177"
+  },
+  "embedded_file_hashes_verified": {
+    "sources/$OEM$/$$/Setup/UMAY/Initialize-User.ps1": "a0f6a4d63cdf265489bcf9ae9d176740b02baa4c7f048db0bb9fbdab5b9efb48",
+    "sources/boot.wim": "3234e564ca1856ac4866cf26a1eacb3508bb12508d39eb42327dee29994b7459",
+    "sources/install.wim": "6c7bd73267179af790188fed7b9d547bf3c381e544ab14e3ca22176ba201a676",
+    "boot/etfsboot.com": "f425e135aac26b55e2bac655e62e2ce0b16255226c583d9ab43b2e93e8a6d932",
+    "sources/$OEM$/$$/Setup/UMAY/Payload.json": "bce4d94f2cde24607d52503cbfa2a4757f9f40f32a3e55e4ddae9b6fb6bd55ff",
+    "autounattend.xml": "114a5906a6b951b715de4b2c844e815a5aabe83a1de98226d1009c98b3204dac",
+    "sources/$OEM$/$$/Setup/UMAY/Check-Audio-Network.ps1": "ddb088ceb959ae6f6678c2b7e6778084e166a0d1dded099219eb3c2faf834e9c",
+    "bootmgr": "e9721acb3615912e490b6cb2057b3fef0a8dbead89fc168a761341b1fe4bb257",
+    "setup.exe": "ae2ada9faa52b491f572b76d936fa3c085de052caaaa7727ffc7850207cbb956",
+    "efi/microsoft/boot/efisys.bin": "f11d11db8e1874184ac49f4a4f0785fbd93a89be0c93e54bce049e0ef379d4cf",
+    "sources/$OEM$/$$/Setup/UMAY/Apply-Machine.ps1": "d1a996bb5fec0f63e4f51a98e3cd06ed93abb9056d850b1c5dc8cbaf0638afc3",
+    "efi/boot/bootx64.efi": "303869c5db8d58681bb6ac6ac980486414205b170dd834c9cd80405289ca5ea9"
+  },
+  "file_inventory_verified": true,
+  "bios_and_uefi_boot_catalog_verified": true,
+  "efi_boot_requires_keypress": true,
+  "source_wim_not_modified": true,
+  "excluded_source_metadata": [
+    "autounattend.xml"
+  ],
+  "clean_setup_checks_bypassed": [
+    "TPM",
+    "SecureBoot",
+    "RAM"
+  ],
+  "product_key_or_activation_added": false,
+  "automatic_partitioning_added": false,
+  "setup_overlay": {
+    "profile": "UMAY",
+    "wallpaper_added": false,
+    "cursor_added": false,
+    "specialize_command": "cmd.exe /d /c powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"%WINDIR%\\Setup\\UMAY\\Apply-Machine.ps1\"",
+    "scope": "First-logon visual profile and on-demand audio/network diagnostic only; no service, paging, memory compression, power or timer changes.",
+    "files": {
+      "autounattend.xml": "114a5906a6b951b715de4b2c844e815a5aabe83a1de98226d1009c98b3204dac",
+      "sources/$OEM$/$$/Setup/UMAY/Apply-Machine.ps1": "d1a996bb5fec0f63e4f51a98e3cd06ed93abb9056d850b1c5dc8cbaf0638afc3",
+      "sources/$OEM$/$$/Setup/UMAY/Check-Audio-Network.ps1": "ddb088ceb959ae6f6678c2b7e6778084e166a0d1dded099219eb3c2faf834e9c",
+      "sources/$OEM$/$$/Setup/UMAY/Initialize-User.ps1": "a0f6a4d63cdf265489bcf9ae9d176740b02baa4c7f048db0bb9fbdab5b9efb48",
+      "sources/$OEM$/$$/Setup/UMAY/Payload.json": "bce4d94f2cde24607d52503cbfa2a4757f9f40f32a3e55e4ddae9b6fb6bd55ff"
+    },
+    "references": [
+      "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfow",
+      "https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/how-to-determine-the-appropriate-page-file-size-for-64-bit-versions-of-windows",
+      "https://www.virtualbox.org/manual/ch10.html"
+    ]
+  },
+  "custom_wallpaper_or_cursor": false,
+  "scope": "Home 21H2 x64 VM candidate. Four previously approved security/store removals plus 21 consumer AppX packages. Audio/network drivers and service defaults preserved. Four visual effects retained (font smoothing, icon-label shadow, selection fade, window shadow); other targeted animation/transparency effects disabled once per user. No custom wallpaper/cursor, no speculative timer/HPET/CPU/paging tweaks.",
+  "removed_components": [
+    "defenderantivirus",
+    "microsoft.windowsstore",
+    "microsoft.storepurchaseapp",
+    "microsoft.windows.apprep.chxapp",
+    "microsoft.549981c3f5f10",
+    "microsoft.bingnews",
+    "microsoft.bingweather",
+    "microsoft.gamingapp",
+    "microsoft.getstarted",
+    "microsoft.microsoftofficehub",
+    "microsoft.microsoftsolitairecollection",
+    "microsoft.microsoftstickynotes",
+    "microsoft.people",
+    "microsoft.powerautomatedesktop",
+    "microsoft.todos",
+    "microsoft.windowscommunicationsapps",
+    "microsoft.windowsfeedbackhub",
+    "microsoft.windowsmaps",
+    "microsoft.yourphone",
+    "microsoft.xbox.tcui",
+    "microsoft.xboxgameoverlay",
+    "microsoft.xboxgamingoverlay",
+    "microsoft.xboxidentityprovider",
+    "microsoft.xboxspeechtotextoverlay",
+    "microsoftwindows.client.webexperience"
+  ],
+  "driver_and_audio_network_offline_checks": "WORKSPACE\\WIN11-UMAY-URETIM\\Kaynaklar-r1\\WIM-Dogrulama.json",
+  "previous_offline_verification": "WORKSPACE\\WIN11-UMAY-URETIM\\Kaynaklar-r1\\WIM-Dogrulama.json",
+  "boot_and_installation_test": "pending user; maximum 4096 MiB VM RAM",
+  "release_status": "r1 test candidate; not installation-tested"
+}
