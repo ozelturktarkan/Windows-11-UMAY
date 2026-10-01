@@ -1,19 +1,19 @@
 {
-  "created_at": "2026-10-01T13:50:22.490281+03:00",
-  "packager": "pycdlib 1.21.0; official wheel SHA256 1a82cd735542921d0dd7bc40381e7b7b9cbc70bd4c03e4f67a0531d59d2f518e",
-  "iso": "WORKSPACE\\WIN11-UMAY-URETIM\\ADAY-r1\\Windows 11 UMAY.iso",
+  "created_at": "2026-10-01T14:27:09.899578+03:00",
+  "packager": "pycdlib 1.21.0 InPlaceEditor on separately copied r1 ISO; same extents, read-back verified",
+  "iso": "WORKSPACE\\WIN11-UMAY-URETIM\\ADAY-r2\\Windows 11 UMAY.iso",
   "iso_bytes": 4632555520,
   "hashes": {
-    "sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c",
-    "sha1": "e5e0f5a97933075f78e5005a5dcd39af4d0232b2",
-    "md5": "67839f378a5b893c3c6f5cb3d48cd49f"
+    "sha256": "79fb3b26b8e6f412971e1a313ff6421781d17eb29c0d31ca90d812195d7bf224",
+    "sha1": "86a0b5b951d20a8ede4aa54922b15e65487871ea",
+    "md5": "dd0261df242bacb0e63e5ed372e09d05"
   },
   "disk_preflight": {
     "planned_iso_bytes": 4632555520,
     "free_before_write": 129808236544,
     "minimum_remaining_bytes": 1073741824
   },
-  "source": "WORKSPACE\\WIN11-UMAY-URETIM\\Medya",
+  "source": "WORKSPACE\\WIN11-UMAY-URETIM\\ADAY-r1\\Windows 11 UMAY.iso",
   "source_edition_count": 1,
   "original_source_index": 1,
   "exported_edition_count": 1,
@@ -33,7 +33,7 @@
     "sources/install.wim": "6c7bd73267179af790188fed7b9d547bf3c381e544ab14e3ca22176ba201a676",
     "boot/etfsboot.com": "f425e135aac26b55e2bac655e62e2ce0b16255226c583d9ab43b2e93e8a6d932",
     "sources/$OEM$/$$/Setup/UMAY/Payload.json": "bce4d94f2cde24607d52503cbfa2a4757f9f40f32a3e55e4ddae9b6fb6bd55ff",
-    "autounattend.xml": "114a5906a6b951b715de4b2c844e815a5aabe83a1de98226d1009c98b3204dac",
+    "autounattend.xml": "4511d9f1e930c78b3b008f87a5a1b540cb7f681496bf735756a0adb938cc9f95",
     "sources/$OEM$/$$/Setup/UMAY/Check-Audio-Network.ps1": "ddb088ceb959ae6f6678c2b7e6778084e166a0d1dded099219eb3c2faf834e9c",
     "bootmgr": "e9721acb3615912e490b6cb2057b3fef0a8dbead89fc168a761341b1fe4bb257",
     "setup.exe": "ae2ada9faa52b491f572b76d936fa3c085de052caaaa7727ffc7850207cbb956",
@@ -62,7 +62,7 @@
     "specialize_command": "cmd.exe /d /c powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"%WINDIR%\\Setup\\UMAY\\Apply-Machine.ps1\"",
     "scope": "First-logon visual profile and on-demand audio/network diagnostic only; no service, paging, memory compression, power or timer changes.",
     "files": {
-      "autounattend.xml": "114a5906a6b951b715de4b2c844e815a5aabe83a1de98226d1009c98b3204dac",
+      "autounattend.xml": "4511d9f1e930c78b3b008f87a5a1b540cb7f681496bf735756a0adb938cc9f95",
       "sources/$OEM$/$$/Setup/UMAY/Apply-Machine.ps1": "d1a996bb5fec0f63e4f51a98e3cd06ed93abb9056d850b1c5dc8cbaf0638afc3",
       "sources/$OEM$/$$/Setup/UMAY/Check-Audio-Network.ps1": "ddb088ceb959ae6f6678c2b7e6778084e166a0d1dded099219eb3c2faf834e9c",
       "sources/$OEM$/$$/Setup/UMAY/Initialize-User.ps1": "a0f6a4d63cdf265489bcf9ae9d176740b02baa4c7f048db0bb9fbdab5b9efb48",
@@ -105,6 +105,12 @@
   ],
   "driver_and_audio_network_offline_checks": "WORKSPACE\\WIN11-UMAY-URETIM\\Kaynaklar-r1\\WIM-Dogrulama.json",
   "previous_offline_verification": "WORKSPACE\\WIN11-UMAY-URETIM\\Kaynaklar-r1\\WIM-Dogrulama.json",
-  "boot_and_installation_test": "pending user; maximum 4096 MiB VM RAM",
-  "release_status": "r1 test candidate; not installation-tested"
+  "boot_and_installation_test": "Windows Setup product key page visually confirmed with 4096 MiB/3 vCPU; full installation, audio and internet pending user",
+  "release_status": "r2 test candidate; Setup startup error corrected and booted to product-key page",
+  "delta_from_r1": {
+    "changed_file": "autounattend.xml",
+    "change": "ProductKey WillShowUI=Always; no Key value, activation, accounts or disk selection added",
+    "install_wim_sha256_unchanged": "6c7bd73267179af790188fed7b9d547bf3c381e544ab14e3ca22176ba201a676",
+    "r1_iso_sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c"
+  }
 }

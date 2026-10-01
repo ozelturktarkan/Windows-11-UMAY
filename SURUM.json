@@ -1,26 +1,27 @@
 {
   "name": "Windows 11 UMAY",
-  "revision": "r1",
+  "revision": "r2",
   "version": "21H2",
   "edition": "Home",
   "build": "22000.194",
   "architecture": "x64",
   "language": "tr-TR",
-  "status": "r1_known_setup_issue_r2_in_verification",
+  "status": "sources_published_iso_link_pending",
   "iso_file": "Windows 11 UMAY.iso",
   "iso_bytes": 4632555520,
   "hashes": {
-    "sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c",
-    "sha1": "e5e0f5a97933075f78e5005a5dcd39af4d0232b2",
-    "md5": "67839f378a5b893c3c6f5cb3d48cd49f"
+    "sha256": "79fb3b26b8e6f412971e1a313ff6421781d17eb29c0d31ca90d812195d7bf224",
+    "sha1": "86a0b5b951d20a8ede4aa54922b15e65487871ea",
+    "md5": "dd0261df242bacb0e63e5ed372e09d05"
   },
   "archive_url": null,
   "iso_download_url": null,
-  "installation_test": "blocked by ProductKey answer-file error",
+  "installation_test": "pending user; Windows Setup product-key page reached after r2 correction",
   "target_ram_gb": 1,
   "ram_target_is_not_verified_minimum": true,
   "test_vm_ram_mib": 4096,
-  "build_verified_at": "2026-10-01T13:50:22.490281+03:00",
+  "build_verified_at": "2026-10-01T14:27:09.899578+03:00",
   "iso_uploaded_to_github": false,
-  "custom_wallpaper_or_cursor": false
+  "custom_wallpaper_or_cursor": false,
+  "test_vm_vcpus": 3
 }

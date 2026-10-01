@@ -1,8 +1,8 @@
-Windows 11 UMAY.iso
+Windows 11 UMAY.iso — r2
 Boyut: 4632555520 bayt
 
-SHA256: cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c
-SHA1: e5e0f5a97933075f78e5005a5dcd39af4d0232b2
-MD5: 67839f378a5b893c3c6f5cb3d48cd49f
+SHA256: 79fb3b26b8e6f412971e1a313ff6421781d17eb29c0d31ca90d812195d7bf224
+SHA1: 86a0b5b951d20a8ede4aa54922b15e65487871ea
+MD5: dd0261df242bacb0e63e5ed372e09d05
 
-Bu hashler ozellestirilmis r1 ISO icindir; orijinal Microsoft medyasi icin degildir.
+Bu hashler ozellestirilmis r2 ISO icindir; Microsoft kaynak ISO icin degildir.

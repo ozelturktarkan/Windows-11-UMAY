@@ -13,3 +13,7 @@
 Yanıt dosyasının windowsPE aşaması yalnız TPM/Secure Boot/RAM denetim değerlerini yazar. specialize aşaması `Apply-Machine.ps1` çağırır. Betik hedef sürümü/yolu denetler, Default User görsel değerlerini ve kullanıcı başına RunOnce kaydını hazırlar. İlk kullanıcı oturumu `Initialize-User.ps1` ile görsel profili uygular ve isteğe bağlı ses/ağ kontrol kısayolunu ekler. Sürekli çalışan bir optimizasyon işlemi kurulmaz.
 
 Kaynak XML ve bütün küçük kurulum dosyaları paylaşılmıştır. Windows ikilileri ve yerel üretim bilgisayarına bağlı araç yolları bu kaynak ZIP'ine dahil değildir. Aynı işlevsel ayarlar, bit düzeyinde aynı ISO dosyasını garanti etmez.
+
+## r2 yanıt dosyası farkı
+
+`UserData/ProductKey/WillShowUI=Always`, ürün anahtarı ekranını gösterir; `Key` değeri içermez. Anahtarın girilmesi veya Windowsun sunduğu anahtarsız devam seçeneği kullanıcıya aittir. NTLite kaldırma XMLi ve install.wim r1 ile aynıdır. Resmî açıklama: https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-setup-userdata-productkey-willshowui

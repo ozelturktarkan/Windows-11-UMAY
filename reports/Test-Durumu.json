@@ -1,15 +1,15 @@
 {
-  "revision": "r1",
-  "iso_sha256": "cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c",
+  "revision": "r2",
+  "iso_sha256": "79fb3b26b8e6f412971e1a313ff6421781d17eb29c0d31ca90d812195d7bf224",
   "offline_image_verification": "passed",
   "iso_readback_verification": "passed",
   "boot_catalog_verification": "passed",
   "driver_services_checked": 360,
   "audio_network_source_files_sha256_matched": 9,
-  "installation": "blocked: r1 Windows Setup ProductKey validation 0x80070002",
+  "installation": "pending user; not completed by agent",
   "internet_in_installed_guest": "pending user",
   "audible_sound_in_installed_guest": "pending user",
-  "first_logon_visual_profile": "not reached",
+  "first_logon_visual_profile": "pending user",
   "basic_applications": "pending user",
   "idle_ram_cpu_and_long_term_stability": "not measured",
   "configured_vm": {
@@ -20,5 +20,6 @@
   },
   "ram_target_1gb_verified": false,
   "boot_to_windows_setup": "passed after changing VM vCPUs from 2 to 3",
-  "known_issue": "r2 answer-file UI correction under verification"
+  "known_issue": "r1 ProductKey startup error corrected by WillShowUI=Always in r2; no product key supplied",
+  "product_key_page": "visually confirmed in VM"
 }

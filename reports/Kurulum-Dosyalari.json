@@ -5,7 +5,7 @@
   "specialize_command": "cmd.exe /d /c powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"%WINDIR%\\Setup\\UMAY\\Apply-Machine.ps1\"",
   "scope": "First-logon visual profile and on-demand audio/network diagnostic only; no service, paging, memory compression, power or timer changes.",
   "files": {
-    "autounattend.xml": "114a5906a6b951b715de4b2c844e815a5aabe83a1de98226d1009c98b3204dac",
+    "autounattend.xml": "4511d9f1e930c78b3b008f87a5a1b540cb7f681496bf735756a0adb938cc9f95",
     "sources/$OEM$/$$/Setup/UMAY/Apply-Machine.ps1": "d1a996bb5fec0f63e4f51a98e3cd06ed93abb9056d850b1c5dc8cbaf0638afc3",
     "sources/$OEM$/$$/Setup/UMAY/Check-Audio-Network.ps1": "ddb088ceb959ae6f6678c2b7e6778084e166a0d1dded099219eb3c2faf834e9c",
     "sources/$OEM$/$$/Setup/UMAY/Initialize-User.ps1": "a0f6a4d63cdf265489bcf9ae9d176740b02baa4c7f048db0bb9fbdab5b9efb48",

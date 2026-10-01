@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-10-01T14:32:11.624086+03:00",
+  "iso_sha256": "79fb3b26b8e6f412971e1a313ff6421781d17eb29c0d31ca90d812195d7bf224",
+  "vm": "Win11-UMAY-21H2-TEST",
+  "ram_mib": 4096,
+  "vcpus": 3,
+  "virtualbox": "7.2.20r175154",
+  "execution_backend": "NEM/Hyper-V observed in VBox.log",
+  "uefi_2cpu_hang_observed": true,
+  "uefi_3cpu_boot_passed": true,
+  "r1_setup_error": "Callback_ProductKey_Validate_Unattend 0x80070002",
+  "r2_change": "UserData/ProductKey/WillShowUI=Always; no Key value",
+  "product_key_page_reached": true,
+  "visual_evidence": "Windows Setup: Windowsu Etkinlestir, empty product key field and Urun anahtarim yok button",
+  "screenshot_sha256": "3c4c7cdb5db970e794e97a13ead4c09ded4a204eae2b2e4056b97fe7288ea350",
+  "installation_completed": false,
+  "audio_internet_test": "pending user after installation",
+  "install_wim_unchanged_from_r1": true,
+  "reference": "https://github.com/VirtualBox/virtualbox/issues/799",
+  "scope": "Single VM observed; no general performance or long-term stability guarantee; host security/Hyper-V configuration unchanged"
+}

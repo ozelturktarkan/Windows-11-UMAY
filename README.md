@@ -1,10 +1,12 @@
 # Windows 11 UMAY
 
-> **r1 kurulum sorunu bulundu:** İlk canlı testte Windows Setup, ProductKey yanıt dosyası hatası verdi. r1 ile kuruluma devam etmeyin; anahtar eklemeden seçim ekranını açan r2 düzeltmesi doğrulanıyor.
+**Windows 11 Home 21H2 · 22000.194 · Türkçe · x64 · r2**
 
-**Windows 11 Home 21H2 · 22000.194 · Türkçe · x64 · r1**
+ISO üretildi; NTLite ön ayarı, kurulum ekleri, doğrulama raporları ve hashleri yayımlandı. **Kurulum, gerçek ses ve internet testleri kullanıcı sonucunu bekliyor. Büyük ISO için Archive bağlantısı henüz yok.** [r2 kaynak paketini indir](https://github.com/ozelturktarkan/Windows-11-UMAY/releases/tag/v0.1-r2); bu küçük ZIP Windows kurulum ISO'su değildir.
 
-ISO üretildi; NTLite ön ayarı, kurulum ekleri, doğrulama raporları ve hashleri yayımlandı. **Kurulum, gerçek ses ve internet testleri kullanıcı sonucunu bekliyor. Büyük ISO için Archive bağlantısı henüz yok.** [r1 kaynak paketini indir](https://github.com/ozelturktarkan/Windows-11-UMAY/releases/tag/v0.1-r1); bu küçük ZIP Windows kurulum ISO'su değildir.
+## r2 kurulum düzeltmesi
+
+r1 testinde görülen ProductKey hatası için yanıt dosyasına `ProductKey/WillShowUI=Always` eklendi; **ürün anahtarı eklenmedi**. Aynı `install.wim` kullanılıyor. 3 vCPU ile Windows kurulumunun ürün anahtarı sayfasına ulaşıldığı görsel olarak doğrulandı; kurulumu, sesi ve interneti kullanıcı test edecek. [Açılış kaydı](reports/VM-Boot-Test.json).
 
 ## Neler değişti?
 
@@ -21,7 +23,7 @@ ISO üretildi; NTLite ön ayarı, kurulum ekleri, doğrulama raporları ve hashl
 
 SHA-256:
 ```text
-cb8498f871c8b6fd90fa9583c0527e807e553d5a265f53b80229ef633e94326c
+79fb3b26b8e6f412971e1a313ff6421781d17eb29c0d31ca90d812195d7bf224
 ```
 
 [SHA-256 / SHA-1 / MD5](HASHES.txt) · [ISO raporu](reports/ISO-Dogrulama.json) · [Test durumu](docs/TESTLER.md)
@@ -40,7 +42,7 @@ Kaynak: [rg-adguard dosya kaydı](https://files.rg-adguard.net/file/c1f0bf7b-3ee
 
 ## Kurulum ve hedef
 
-Test makinesi **4 GB RAM, 2 vCPU, 64 GB dinamik disk, UEFI/TPM 2.0, NAT/kablo bağlı ve Intel HD Audio çıkışı açık** olarak hazırlandı. Kurulumu elle yapın; [VirtualBox notları](docs/SANAL-MAKINE.md).
+Test makinesi **4 GB RAM, 3 vCPU, 64 GB dinamik disk, UEFI/TPM 2.0, NAT/kablo bağlı ve Intel HD Audio çıkışı açık** olarak hazırlandı. Kurulumu elle yapın; [VirtualBox notları](docs/SANAL-MAKINE.md).
 
 **1 GB+ RAM bir deney hedefidir; doğrulanmış alt sınır değildir.** Boşta RAM, hız artışı veya uzun dönem kararlılık ölçümü henüz yayımlanmadı. Masaüstündeki **UMAY Ses ve Internet Kontrol** kısayolu yalnız istenildiğinde çalışır; ses duyulduğunu kullanıcı ayrıca doğrular.
 
