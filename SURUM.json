@@ -1,0 +1,14 @@
+{
+  "name": "Windows 11 UMAY",
+  "version": "21H2",
+  "edition": "Home",
+  "planned_build": "22000.194",
+  "architecture": "x64",
+  "language": "tr-TR",
+  "status": "preparing",
+  "iso_bytes": null,
+  "hashes": null,
+  "archive_url": null,
+  "installation_test": "not started",
+  "target_ram_gb": 1
+}

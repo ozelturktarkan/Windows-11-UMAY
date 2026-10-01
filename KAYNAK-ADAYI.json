@@ -1,0 +1,15 @@
+{
+  "file": "tr-tr_windows_11_consumer_editions_x64_dvd_e9dd3889.iso",
+  "alternative_name": "Win11_Turkish_x64.iso",
+  "version": "21H2",
+  "build": "22000.194",
+  "language": "tr-TR",
+  "architecture": "x64",
+  "family": "Consumer editions; Home selected in NTLite",
+  "catalog_url": "https://files.rg-adguard.net/file/c1f0bf7b-3ee1-3f0b-d19e-90bac2fc4f8a",
+  "catalog_sha256": "c5b71f1ca4a05c2f55a2fe4b3a8686250537567d2c9950949db03c141c556562",
+  "catalog_bytes": 5162174464,
+  "download_or_local_hash_verified": false,
+  "microsoft_reference_independently_verified": false,
+  "note": "Third-party catalog metadata, not a direct ISO download or an independently verified Microsoft hash."
+}
