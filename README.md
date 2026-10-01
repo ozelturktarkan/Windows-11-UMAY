@@ -1,5 +1,7 @@
 # Windows 11 UMAY
 
+> **r1 kurulum sorunu bulundu:** İlk canlı testte Windows Setup, ProductKey yanıt dosyası hatası verdi. r1 ile kuruluma devam etmeyin; anahtar eklemeden seçim ekranını açan r2 düzeltmesi doğrulanıyor.
+
 **Windows 11 Home 21H2 · 22000.194 · Türkçe · x64 · r1**
 
 ISO üretildi; NTLite ön ayarı, kurulum ekleri, doğrulama raporları ve hashleri yayımlandı. **Kurulum, gerçek ses ve internet testleri kullanıcı sonucunu bekliyor. Büyük ISO için Archive bağlantısı henüz yok.** [r1 kaynak paketini indir](https://github.com/ozelturktarkan/Windows-11-UMAY/releases/tag/v0.1-r1); bu küçük ZIP Windows kurulum ISO'su değildir.

@@ -16,3 +16,9 @@ Bu adayların temiz kurulum yanıt dosyası yalnız TPM, Secure Boot ve RAM dene
 4 GB RAM, 2 vCPU, 64 GB dinamik disk, VBoxSVGA / 128 MB görüntü belleği, 3D kapalı; UEFI, TPM 2.0 ve Secure Boot açık. Ağ NAT / Intel PRO/1000 MT / kablo bağlı. Ses Intel HD Audio / STAC9221, ana bilgisayarın varsayılan arka ucu ve ses çıkışı açık; mikrofon girişi kapalı.
 
 Windows konuğu için Hyper-V paravirtualization provider ve nested paging seçildi; bu, ana bilgisayarın Windows Hyper-V özelliğini açıp kapatmaz. HPET, BCD işlemci sınırı veya %100 minimum işlemci değişikliği eklenmedi. Bu yapılandırma henüz ölçülmüş performans artışı iddiası değildir. [Oracle belgesi](https://www.virtualbox.org/manual/ch10.html).
+
+## 1 Ekim 2026: UMAY açılış gözlemi
+
+VirtualBox 7.2.20, Windows ana bilgisayarda NEM/Hyper-V yürütmesiyle 2 vCPU kullanırken ISO'ya geçmeden UEFI DXE_AP aşamasında kaldı (görüntü modu 0x0). Aynı VM'de yalnız vCPU sayısı 3 yapıldığında UEFI aşıldı ve Windows Setup açıldı; RAM 4 GB kaldı. Bu, bu bilgisayarda doğrulanan bir açılış çözümüdür; uzun dönem kararlılık veya bütün donanımlar için garanti değildir. [VirtualBox hata kaydı #799](https://github.com/VirtualBox/virtualbox/issues/799) benzer 2 vCPU/WHPX takılmasını bildirir. Ana bilgisayarın güvenlik ve Hyper-V ayarları değiştirilmedi.
+
+Ardından ayrı bir r1 ProductKey/yanıt dosyası hatası görüldü. UEFI çözümü ISO kurulum yapılandırmasındaki bu ikinci hatayı gidermez; r2 testi bekleniyor.

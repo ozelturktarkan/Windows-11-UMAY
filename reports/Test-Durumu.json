@@ -6,17 +6,19 @@
   "boot_catalog_verification": "passed",
   "driver_services_checked": 360,
   "audio_network_source_files_sha256_matched": 9,
-  "installation": "pending user",
+  "installation": "blocked: r1 Windows Setup ProductKey validation 0x80070002",
   "internet_in_installed_guest": "pending user",
   "audible_sound_in_installed_guest": "pending user",
-  "first_logon_visual_profile": "pending user",
+  "first_logon_visual_profile": "not reached",
   "basic_applications": "pending user",
   "idle_ram_cpu_and_long_term_stability": "not measured",
   "configured_vm": {
     "ram_mib": 4096,
-    "vcpus": 2,
+    "vcpus": 3,
     "network": "NAT, cable connected",
     "audio": "Intel HD Audio, output enabled"
   },
-  "ram_target_1gb_verified": false
+  "ram_target_1gb_verified": false,
+  "boot_to_windows_setup": "passed after changing VM vCPUs from 2 to 3",
+  "known_issue": "r2 answer-file UI correction under verification"
 }

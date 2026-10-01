@@ -6,7 +6,7 @@
   "build": "22000.194",
   "architecture": "x64",
   "language": "tr-TR",
-  "status": "sources_published_iso_link_pending",
+  "status": "r1_known_setup_issue_r2_in_verification",
   "iso_file": "Windows 11 UMAY.iso",
   "iso_bytes": 4632555520,
   "hashes": {
@@ -16,7 +16,7 @@
   },
   "archive_url": null,
   "iso_download_url": null,
-  "installation_test": "pending user for this exact ISO",
+  "installation_test": "blocked by ProductKey answer-file error",
   "target_ram_gb": 1,
   "ram_target_is_not_verified_minimum": true,
   "test_vm_ram_mib": 4096,

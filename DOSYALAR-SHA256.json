@@ -4,7 +4,7 @@
   "Araclar/Dosyalari-Dogrula.ps1": "5752772ffd17dd99b4db804fef68a5e69762a5c3d11d6d63d7310a6c5889dfb2",
   "Araclar/ISO-Dogrula.ps1": "6d80d280a7b994630127c90914b6155350544d719e6a7348edfcb7be33b5e78a",
   "docs/DEGISIKLIKLER.md": "26708409bae2d614f173a99c515562867d52cb1b179e355b8ded71994a8c7a59",
-  "docs/SANAL-MAKINE.md": "45a2145870f505c51c06e5972046730ea5f1265dbe172d3a6e0b130c46299d43",
+  "docs/SANAL-MAKINE.md": "edfe946375a1f9ffe9a7c792998f5719980ee2d84055f59610271a36e6f061a5",
   "docs/TESTLER.md": "d3e5dab2fecfb1a8070382d990da461529e4c635d93b5f8e5967239662330d25",
   "docs/YENIDEN-URETIM.md": "b619c6acc983be1cece3e36fed66fa9c70414ce9eb681bba67f44256e2e8cd62",
   "HASHES.txt": "bc14610548302395248425af26e337fc0ff1dd8e41efeb7312b3c5e505b1cd94",
@@ -16,11 +16,11 @@
   "Medya-Eki/sources/$OEM$/$$/Setup/UMAY/Initialize-User.ps1": "a0f6a4d63cdf265489bcf9ae9d176740b02baa4c7f048db0bb9fbdab5b9efb48",
   "Medya-Eki/sources/$OEM$/$$/Setup/UMAY/Payload.json": "bce4d94f2cde24607d52503cbfa2a4757f9f40f32a3e55e4ddae9b6fb6bd55ff",
   "NTLite/NTLite-Windows-11-UMAY-r1.xml": "07dc3f49656bc2fab27be8ac78fb5b81b391bcfe79ca58bfeda6c91ad4eb0530",
-  "README.md": "d6454d1100c207f2159ed731f4061c06984def7be9d7d5b473653de53d02f36f",
+  "README.md": "dc934b390b43efa7f23e72fafb7f24a8cca614e11282fce01bfa28b30c3cdedb",
   "reports/ISO-Dogrulama.json": "6c935490b98d074bb23aacd1c4243950aa4c52c73f0e056303d48d501e299aba",
   "reports/Kurulum-Dosyalari.json": "f5e9e46e3dbd3ec4d7661df26546743e08f9ea36e32175ebee9468cd08165fe7",
-  "reports/Test-Durumu.json": "333fdf9bfb7366fce15fb81441ef6029e6e12c248d1f68fa1383ddc91a2ff01e",
+  "reports/Test-Durumu.json": "e8050304571c9e64e5108dba31293e5314dcf646676dc7f91571614edad2ef7c",
   "reports/VM-Hazirlik.json": "73aec8932209420f123657ce325ac997abf20c62508b8b2a56ccb0b67c37bda8",
   "reports/WIM-Dogrulama.json": "304d844dbd284c303de450ffcd118c6af511afd5fbe1a5ad77573bb2d6b03447",
-  "SURUM.json": "2a57a52c646580ea9505d2bdaed2708bec15e53b681d4764e0dec7429b9689b8"
+  "SURUM.json": "7dc05ab1ac8ff18cf4d573d8afa84700cd881c7bcde0296338261c419a781d96"
 }
